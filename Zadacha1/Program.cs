@@ -7,3 +7,18 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 
+Console.Write("Введите первое число: ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int numberB = Convert.ToInt32(Console.ReadLine());
+
+if (numberA > numberB)
+{
+    Console.WriteLine("Большее число:" + numberA);
+    Console.WriteLine("Меньшее число:" + numberB);
+}
+else
+{
+    Console.WriteLine("Большее число:" + numberB);
+    Console.WriteLine("Меньшее число:" + numberA);
+}
